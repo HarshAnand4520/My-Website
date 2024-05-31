@@ -1,0 +1,61 @@
+.pro{
+    text-decoration: underline;
+}
+h1{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+}
+.cloud-1{
+    height:200px ;
+    width:200px;
+    position: relative;
+    left:300px;
+
+}
+.cloud-2{
+    height:200px ;
+    width:200px;
+    position: relative;
+    right:300px;
+}
+.About{
+    margin:50px;
+}
+@media(max-width:600px){
+    .mountain{
+        height:300px;
+        width:300px;
+    }
+    .cloud-2{
+        height:100px ;
+        width:100px;
+        position: relative;
+        right:150px;
+    }
+    .cloud-1{
+        height:100px ;
+        width:100px;
+        position: relative;
+        left:150px;
+    }
+}
+@media(max-width:350px){
+    .mountain{
+        height:150px;
+        width:150px;
+    }
+    .cloud-2{
+        height:50px ;
+        width:50px;
+        position: relative;
+        right:75px;
+    }
+    .cloud-1{
+        height:50px ;
+        width:50px;
+        position: relative;
+        left:75px;
+    }
+}
